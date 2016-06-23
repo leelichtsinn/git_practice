@@ -7,13 +7,17 @@ body {
 }
 
 .nav {
-
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
 }
 
 #column {
-
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
 }
 
 .section {
-  
+
 }

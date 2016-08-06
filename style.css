@@ -1,23 +1,25 @@
 body {
-
+  position: relative;
 }
 
 #container {
-
+  width: 900px;
 }
 
 .nav {
-  display: inline-block;
+  display: block;
+  float: left;
   vertical-align: top;
   width: 25%;
 }
 
 #column {
-  display: inline-block;
+  display: block;
+  float: left;
   vertical-align: top;
   width: 75%;
 }
 
 .section {
-
+  display: block;
 }

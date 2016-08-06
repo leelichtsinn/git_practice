@@ -1,25 +1,32 @@
-body {
+#container {
   position: relative;
 }
 
-#container {
-  width: 900px;
-}
-
 .nav {
-  display: block;
-  float: left;
+  position: absolute;
   vertical-align: top;
-  width: 25%;
+  left: 0px;
+  width: 200px;
 }
 
 #column {
-  display: block;
-  float: left;
   vertical-align: top;
   width: 75%;
 }
 
 .section {
-  display: block;
+  vertical-align: top;
+  margin-left: 200px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 70px;
+  width: 100%;
+}
+
+body {
+  margin-bottom: 120px;
 }
